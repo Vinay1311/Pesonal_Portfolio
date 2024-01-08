@@ -29,6 +29,14 @@
     section{
         margin-bottom: 18vh;
     }
+
+      .menu-links{
+        background-color: #e3e3e383;
+    }
+
+    .menu-links a:hover{
+        background-color: white;
+    }
 }
 
 @media screen and (max-width: 465px){
