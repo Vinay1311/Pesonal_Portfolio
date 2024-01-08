@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Portfolio-icon" href="./Assets/icons8-id-verified-64.png">
+    <title>Vinay_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body> 
+    <nav id="desktop-nav">
+        <div class="Name">Vinay Kumar Soni </div>
+        <div class="btn-nav">
+            <button id="darkModeToggle" class="icon"> </button>
+            <ul class="nav-links">
+                <li><a href="#About"> About </a> </li>
+                <li><a href="#Tech-Skill"> Tech-Skill </a></li>
+                <li><a href="#Projects"> Projects </a></li>
+                <li><a href="#Contact"> Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="Name"> Vinay Kumar Soni </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()"> About </a> </li>
+                <li><a href="#Tech-Skill" onclick="toggleMenu()"> Tech-Skill </a></li>
+                <li><a href="#Projects" onclick="toggleMenu()"> Projects </a></li>
+                <li><a href="#Contact" onclick="toggleMenu()"> Contact </a></li>
+            </div>
+        </div>
+    </nav>
+  
+    <section id="Profile">
+        <div class="blur-box">
+            <div class="pic-section">
+                <img src="./Assets/Profile-Pic..jpg " alt="Vinay Kumar Soni Profile Picture">
+            </div>
+            <div class="text-section">
+                <p class="para1">Hey!! I'm</p>
+                <h2 class="title"> Vinay Kumar Soni</h2>
+                <span class="para2" style="font-weight: bolder;"></span>
+                <div class="btn-section">
+                    <button class="btn btn1" onclick="window.open('https://drive.google.com/file/d/1P2tHivbP3dowiwPKyRvnKpiRBZJIzbzr/view?usp=share_link')" href="https://drive.google.com/file/d/1P2tHivbP3dowiwPKyRvnKpiRBZJIzbzr/view?usp=share_link" download> Download CV</button>
+                    <button class="btn btn2 " onclick="location.href='./#Contact'"> Contact Info </button>  
+                </div>
+                <div id="social-icons">
+                    <img src="./Assets/github.png" alt="My Github-Profile" class="icon icon0" onclick="openGithubProfile()" style="cursor: pointer;">
+                    <img src="./Assets/linkedin.png" alt="My LinkedIn-Profile" class="icon icon0" onclick="openLinkedInProfile()" style="cursor: pointer;">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="About">
+        <p class="para1" id="para-top"> Get to Know More </p>
+        <h6 class="heading"> About Me </h6>
+        <div class="about-section-info">
+            <div class="about-pic-section">
+                <img src="./Assets/Side-Img.jpg" alt="Vinay Kumar Soni Profile Picture" class="about-pic">
+            </div>
+            <div class="details-section">
+                <div class="personal-info-section"> 
+                    <div class="start-text">
+                        <h4>Hey there, I'm <strong>Vinay Kumar Soni</strong></h4>
+                    </div>
+                    <div class="info-text" id="info-text-1">
+                        As a recent Computer Science graduate from CSVTU University, I've a strong background in <b>`Python`</b>, <b>`Java`</b>, and <b>Web Development (HTML/CSS/JS)</b>. I be very good in leveraging these languages to build innovative and efficient solutions.
+                    </div> 
+                    <div class="info-text" id="info-text-2">
+                        With a foundational understanding of <b>AWS</b>, <b>Database Management</b>, and <b>Query languages</b>, I possess skills in optimizing database performance and creating efficient queries. Eager to expand my knowledge in cloud technologies, I am committed to continuous learning and staying abreast of industry advancements. 
+                     </div> 
+                     <div class="info-text" id="info-text-3">
+                        Proficient in industry-standard tools such as VScode, PyCharm, and Google Colab, I have successfully delivered diverse projects, showcasing my technical prowess. My proficiency extends to collaborating with cutting-edge technologies for effective problem-solving.
+                     </div>
+                     <div class="info-text" id="info-text-4">
+                        Passionate about lifelong learning, I am enthusiastic about adopting new technologies in order to keep ahead of the always evolving IT industry. Eager for new challenges, I seek opportunities to leverage my coding skills, particularly in programming languages, to drive innovation and contribute to the dynamic field of IT.
+                     </div>
+
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Tech-Skill">
+        <p class="para1" id="para-top2"> Explore My </p>
+        <h6 class="heading"> Technical Skill </h6>
+        <div id="tech-skill-section" >
+            <div class="languages">
+                <div class="skill-box"><p class="skill-box-text" > Programming Languages </p>  <br> <br> 
+                    <button class="knowmore" id="btn-1"> Python </button>
+                    <button class="knowmore" id="btn-1"> Java </button>
+                    <button class="knowmore" id="btn-1"> C </button>
+                    <hr id="hr0">
+                    <div class="logos">
+                        <img src="./Assets/python.png" alt="" class="logo">
+                        <img src="./Assets/java.png" alt="" class="logo">
+                        <img src="./Assets/letter-c.png" alt="" class="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="web-dev">
+                <div class="skill-box"><p class="skill-box-text"> Web - Development </p> <br> <br> 
+                    <button class="knowmore" id="btn-1"> Html5 </button>
+                    <button class="knowmore" id="btn-1"> CSS </button>
+                    <button class="knowmore" id="btn-1"> JS </button>
+                    <button class="knowmore" id="btn-1"> Bootstrap </button>
+                    <hr id="hr01">
+                    <div class="logos">
+                        <img src="./Assets/html-5.png" alt="" class="logo">
+                        <img src="./Assets/css-3.png" alt="" class="logo">
+                        <img src="./Assets/js.png" alt="" class="logo">
+                    </div>
+                </div> 
+            </div>
+            <div class="database">
+                <div class="skill-box"><p class="skill-box-text"> Database </p> <br> <br> 
+                    <button class="knowmore" id="btn-1"> SQL </button>
+                    <button class="knowmore" id="btn-1"> MySQL </button>
+                    <hr>
+                    <div class="logos">
+                        <img src="./Assets/data-storage.png" alt="" class="logo">
+                        <img src="./Assets/mysql.png" alt="" class="logo">
+                    </div>
+                 </div>
+            </div>
+            <div class="other">
+                <div class="skill-box" class="lower-box" id="lower-box1"><p class="skill-box-text"> Cloud </p> <br> <br> 
+                    <button class="knowmore"> Cloud Basics </button>
+                    <button class="knowmore" id="btn-1"> AWS Basics </button>
+                    <hr>
+                    <div class="logos">
+                        <img src="./Assets/data-storage.png" alt="" class="logo">
+                        <img src="./Assets/social.png" alt="" class="logo">
+                    </div>
+                </div>            
+            </div>
+            <div class="tool-sec">
+                <div class="skill-box" class="lower-box" id="lower-box2"><p class="skill-box-text"> S/W-Tools </p> 
+                    <p class="familiar-text"> {Familiar With} </p>
+                    <br> <br> <br>
+                    <hr>
+                    <button class="knowmore" id="lowest-btn"> VS-Studio </button> 
+                    <button class="knowmore" id="lowest-btn"> PyCharm 
+                    <button class="knowmore" id="lowest-btn"> IntelliJ     
+                    <button class="knowmore" id="lowest-btn"> NetBeans
+                    <button class="knowmore" id="lowest-btn"> & More....
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <p class="para1" id="para-top4" style="margin-top: 0.2rem;"> Browse My Recents & Existed</p>
+        <h6 class="heading"> Projects </h6>
+        <div class="projects-section">
+            <div class="project container-1" style="--img: url('Assets/Project-1.jpg');" data-text="Voice-Assistant">
+                <div class="overlay">
+                    <div class="data details1"> <h2>Voice-Assistant</h2> <br>Developed the SpeechRecognition and pyttsx3-based full-stack Python-based Virtual Assistant. Integrated machine learning algorithms that show competency in Python and natural language understanding for voice-activated activities like playing YouTube videos, providing weather-related information, and retrieving real-time data. <br><br><h4>Shoot Github Button to Explore .</h4></div>
+                </div>
+            </div>
+            <div class="project container-2" style="--img: url('Assets/Project-2.png');" data-text="Spotify Clone" >
+                <div class="overlay">
+                    <div class="data details2"> <h2>Spotify Clone</h2> <br>A simple Spotify clone project created using HTML and CSS. The goal of this project is to recreate the basic layout and design of the Spotify web app without using any JavaScript or JSON. It serves as a practice exercise for working with HTML and CSS. <br><br> <h4>Shoot Github Button to Explore </h4></div>
+                </div>
+            </div>
+        
+            <div class="project container-3" style="--img: url('Assets/Project-4.jpg');" data-text="More Projects" >
+                <div class="overlay">
+                    <div class="data details3"> <h2>Major / Minor & More Projects</h2> <br>Major / Minor project & Some Other Projects, You can check that out on GitHub. <br><br> <h4>Shoot Github Button to Explore More</h4></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn-section">
+            <button class="btn btn2" class="github-btn" onclick="openGithubProfile()" style="margin-top: 1.5rem; cursor: pointer;"> Check Projects on Github </button>  
+        </div>
+    </section>
+
+    <section id="Contact">
+
+            <p class="para1" id="para-top5"> Details to </p>
+            <h6 class="heading" id="contact-heading"> Contact Me </h6>
+            <div class="contact-section">
+                    <img src="./Assets/email.png" alt="email" class="icon icon0"  onclick="location.href='mailto:kumarvinaysoni13@gmail.com'"><p onclick="location.href='mailto:kumarvinaysoni13@gmail.com'"> kumarvinaysoni13@gmail.com </p> 
+        
+                    <img src="./Assets/linkedin.png" alt="linkedin" class="icon icon0" onclick="openLinkedInProfile()" style="cursor: pointer;"><p onclick="openLinkedInProfile()" style="cursor: pointer;"> LinkedIn </p>  
+            </div>
+    
+    </section>
+
+    <footer>
+        <div>
+            <ul class="footer-nav">
+                <li><a href="#About"> About </a> </li>
+                <li><a href="#Tech-Skill"> Tech-Skill </a></li>
+                <li><a href="#Projects"> Projects </a></li>
+                <li><a href="#Contact"> Contact </a></li>
+            </ul>
+        </div>
+        <p>Copyright &#169; 2023 Vinay Kumar Soni. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+         var typingeffect = new Typed(".para2",{
+        strings: ['Learner', 'Frontend-Developer', 'Backend-Developer', 'Fullstack Developer'],
+        loop : true,
+        typeSpeed : 100,
+        backSpeed : 50,
+        backDelay : 1500,
+        // showCursor: true, 
+        // cursorChar: '|', 
+        // onComplete: function(self) {
+        //     self.cursor.style.display = 'none';
+        // }
+    })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,700 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+        z-index: 99;
+    }
+    .menu-links:nth-child(all):hover{
+        border: 2px solid black;
+    }
+}
+
+
+@media screen and (max-width: 1310px){
+    #lower-box{
+        margin-left: 0rem;
+    }
+}
+
+
+@media screen and (max-width: 940px){
+    section{
+        margin-bottom: 15vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section{
+        margin-bottom: 18vh;
+    }
+}
+
+@media screen and (max-width: 465px){
+
+    html,body{
+        width: 60%;
+    }
+
+    section{
+        margin-bottom: 25vh;
+    }
+
+    .heading{
+        font-size: 4vw;
+    }
+    #hamburger-nav{
+    gap: 5vw;
+    }
+}
+
+/* Profile-Section */
+@media screen and (max-width: 940px){
+    .body{
+        width: 60vw;
+    }
+
+    .pic-section img{
+        width: 50vw;
+        border-radius: 2vh;
+    }
+
+    .blur-box{
+        height: 40vh;
+        z-index: 1;
+    }
+
+    .para1{
+        padding-bottom: 0.75rem;
+    }
+
+    .btn-section{
+        padding-top: 0.75rem;
+    }
+
+    .btn{
+        width: fit-content;
+        font-size: 1.25vw;
+    }
+
+    .title{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .pic-section img{
+        width: 80vw;
+        border-radius: 5vh;
+    }
+
+    .blur-box{
+        height: 50vh;
+        z-index: 1;
+    }
+
+    .para1{
+        padding-bottom: 0.75rem;
+    }
+
+    .btn-section{
+        padding-top: 0.75rem;
+    }
+
+    .btn{
+        width: fit-content;
+        font-size: 1.25vw;
+    }
+
+    .title{
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .section{
+        margin-bottom: -5vh;
+    }
+   
+    .pic-section img{
+        padding-left: 10vw;
+        min-width: 38vw;
+        height: 20vh;
+        top: 1rem;
+        border-radius: 5vh;
+    }
+
+    .blur-box{
+        width: 70vw;
+        height: 55vh;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .para1{
+        padding-bottom: 0.75rem;
+        font-size: 1rem;
+    }
+
+    .para2{
+        padding: 1.255rem 0rem;
+        font-size: 1rem;
+    }
+
+    .btn-section{
+        padding-top: 0.75rem;
+    }
+
+    .btn{
+        width: fit-content;
+        font-size: 1.25vw;
+        font-weight: 900;
+        margin-top: 1.5vh;
+    }
+
+    .title{
+        font-size: 7.5vw;
+    }
+}
+
+
+/* About Section */
+
+@media screen and (max-width: 940px){
+
+    #About{
+        margin-top: -8vh;
+    }
+
+    #para-top{
+        font-size: 2.75vw;
+    }
+    .heading{
+        margin-bottom: 1rem;
+        font-size: 3.25vw;
+    }
+
+    .about-pic{
+        width: 35vw;
+    }
+
+    .start-text{
+        margin-left: -1.5rem;
+        margin-bottom: 2rem;
+    }
+    .about-section-info{
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3vh;
+    }
+
+    .info-text{
+        width: 70vw;
+        font-size: 1.5vw;
+        margin-bottom: 2.25rem;
+    }
+
+    .info-text:nth-child(even){
+        margin-right: 2vw;
+    }
+    
+    .info-text:nth-child(odd){
+        margin-left: 8vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #para-top{
+        font-size: 3.25vw;
+        padding-top: -5vh;
+    }
+    .heading{
+        font-size: 4.25vw
+
+    }
+
+    .about-pic{
+        width: 45vw;
+    }
+
+    .info-text{
+        width: 70vw;
+        font-size: 1.75vw;
+        
+    }
+
+    .info-text:nth-child(even){
+        margin-right: 2vw;
+    }
+    
+    .info-text:nth-child(odd){
+        margin-left: 8vw;
+    }
+
+    .start-text{
+        margin-left: -0.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.25vw;
+    }
+  
+}
+
+@media screen and (max-width: 475px){
+    #para-top{
+        font-size: 4.5vw;
+        margin-top: -15vh;
+    }
+
+    .heading{
+        margin-bottom: 0rem;
+        font-size: 5.5vw;
+    }
+
+    .about-pic{
+        width: 50vw;
+    }
+
+    .about-section-info{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .info-text{
+        width: 60vw;
+        font-size: 2.5vw;
+        margin-bottom: 0.5vh;
+    }
+
+    .info-text:nth-child(even){
+        margin-right: 10vw;
+    }
+    
+    .info-text:nth-child(odd){
+        margin-left: 15vw;
+    }
+
+    .start-text{
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.75vw;
+    }
+
+}
+
+
+/* Skill Section */
+
+
+@media only screen and (max-width: 1150px) {
+    #tech-skill-section {
+        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+        padding: 2.5rem 5rem; /* Adjusted padding */
+    }
+
+    .skill-box {
+        width: 32vw; /* Adjusted width */
+    }
+
+    hr{
+        width: 29.5vw;
+        margin-left: 1.25vw;
+        margin-top: -2.20rem;
+
+    }
+
+    .skill-box-text{
+        font-size: 1.35rem;
+        font-weight: 900;
+        padding-top: 24%;
+    }
+
+    .logo{
+        width: 1.75rem;
+        height: 1.75rem;
+        gap: 8rem;
+        padding-right: 0.80rem;
+        padding-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    #para-top2{
+        font-size: 2.75vw;
+        margin-top: 10vh;
+    }
+
+    .skill-box {
+        width: 35vw; 
+        height: 20vh;/* Adjusted width */
+        padding: 1rem;/* Adjusted padding */
+    }
+
+    .skill-box-text{
+        font-size: 2rem;
+        font-weight: 900;
+        padding-top: 32%;
+    }
+
+    .skill-box .knowmore{
+        font-size: 0.95rem;
+        margin-top: -5rem;
+        line-height: 1.65rem;
+    }
+
+    #hr0{
+        margin-top: -3.25rem;
+    }
+
+    .logo{
+        padding-left: 2.5rem;
+    }
+
+    hr{
+        width: 32.5vw;
+    }
+
+    .familiar-text {
+        margin-top: -8.25%; /* Adjusted margin */
+    }
+}
+
+/* Responsive adjustments for screens smaller than 765px */
+@media only screen and (max-width: 768px) {
+    #Tech-Skill{
+        margin-top: 15vh;
+    }
+
+    #para-top2{
+        font-size: 3.75vw;
+        margin-top: -15vh;
+    }
+
+    #tech-skill-section {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .skill-box {
+        width: 50vw; /* Adjusted width */
+        padding: 1rem;/* Adjusted padding */
+    }
+
+    .skill-box-text{
+        font-size: 1.35rem;
+        font-weight: 900;
+        padding-top: 28.5%;
+    }
+    
+    hr{
+        width: 50.5vw;
+        margin-left: 0vw;
+        margin-top: -2.20rem;
+
+    }
+
+    .logos {
+        margin-top: 5vh;
+        margin-left: 5.25vw; /* Adjusted margin */
+    }
+
+    .logo {
+        width: 2rem; /* Adjusted size */
+        height: 2rem; /* Adjusted size */
+        padding-right: 0.25rem; /* Adjusted padding */
+        padding-left: 3.0rem; 
+        padding-top: 1rem;/* Adjusted padding */
+    }
+    
+    .familiar-text {
+        margin-top: -5.25%; /* Adjusted margin */
+    }
+
+    @media only screen and (max-width: 465px){
+        #tech-skill-section {
+            grid-template-columns: 1fr; /* Single column layout */
+        }
+    
+        .skill-box {
+            width: 50vw;
+            height: 22vh; /* Adjusted width */
+            padding: 1rem;/* Adjusted padding */
+            margin-left: -20vw;
+        }
+    
+        .skill-box-text{
+            font-size: 1.25rem;
+            font-weight: 900;
+            padding-top: 30.5%;
+        }
+
+        .skill-box .knowmore{
+            font-size: 0.65rem;
+            margin-top: -1.75rem;
+            line-height: 0.75rem;
+        }
+
+        .skill-box:hover p{
+            color: #f5f5f5;
+            transform: translateY(-35%);
+        }
+        
+        hr{
+            width: 50.5vw;
+            margin-left: 0vw;
+            margin-top: -6.25vh;
+    
+        }
+        
+        #hr0{
+            margin-top: -2.5rem;
+        }
+
+        #hr01{
+            margin-top: -3.25rem;
+        }
+    
+        .logos {
+            margin-top: 1.5vh;
+            margin-left: 0.25vw; /* Adjusted margin */
+        }
+    
+        .logo {
+            width: 1.25rem; /* Adjusted size */
+            height: 1.25rem; /* Adjusted size */
+            padding: 0vh 4.95vw/* Adjusted padding */
+        }
+        
+        .familiar-text {
+            font-size: 0.5rem;
+            margin-top: -2.5%; /* Adjusted margin */
+        }
+    }
+}
+
+
+/* Project - section */
+@media only screen and (max-width: 1144px) {
+    #Projects {
+        margin-top: 50vh;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    #Projects{
+        margin-top: 40vh;
+        margin-bottom: 8vh;
+    }
+
+    #para-top4{
+        font-size: 2.75vw;
+    }
+
+    .data{
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+
+    .projects-section .project::after{
+        font-size: 1rem;
+    }
+
+    .projects-section{
+        height: 40vh;
+        width: 80vw;
+        margin-top: 12vh;
+        margin-left: -1vw;
+        margin-bottom: 10vh;
+    }
+
+    .btn2, .btn1{
+        font-size: 0.75rem;
+        font-weight: 550;
+    }
+}
+
+@media only screen and (max-width: 893px ) {
+    #Projects{
+        margin-top: 105vh;
+    }
+    #Projects{
+        margin-top: 95vh;
+        margin-bottom: 8vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #Projects{
+        margin-top: 150vh;
+        margin-bottom: 8vh;
+    }
+
+    #para-top4{
+        font-size: 3.25vw;
+    }
+
+    .data{
+        font-size: 0.65rem;
+        font-weight: 500;
+    }
+
+    .projects-section .project::after{
+        font-size: 0.85rem;
+    }
+
+    .projects-section{
+        height: 40vh;
+        width: 80vw;
+        margin-top: 12vh;
+        margin-left: -3vw;
+        margin-bottom: 10vh;
+    }
+
+    #github-btn{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+
+    #Projects{
+        margin-top: 105vh;
+        margin-bottom: 8vh;
+    }
+
+    #para-top4{
+        font-size: 4.25vw;
+    }
+
+    .data{
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+
+    .projects-section .project::after{
+        font-size: 0.65rem;
+    }
+
+    .projects-section{
+        height: 40vh;
+        width: 80vw;
+        margin-top: 12vh;
+        margin-left: 0.5vw;
+        margin-bottom: 8vh;
+    }
+
+    .github-btn{
+        font-size: 0.45rem;
+        font-weight: 550;
+        margin-left: -5vw;
+    }
+}
+
+/* Contact & Footer */
+
+/* Contact Section Styling */
+@media only screen and (max-width: 940px) {
+    #para-top5{
+        margin-top: 8.5vh;
+        font-size: 2.75vw;
+    }
+
+    #contact-heading{
+        margin-bottom: 4vh;
+    }
+
+    .contact-section p {
+        padding-left: 0.9rem;/* Align text to the left for larger screens */
+    }
+
+    #Contact{
+        margin-bottom: -15vh;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact-section {
+        position: relative;
+        display: flex;
+        padding: 1rem;
+        /* border:rgb(255, 255, 255) 0.1rem solid; */
+        width: max-content;
+        margin-left: 10vw;
+    }
+
+    .contact-section .icon{
+        width: 3.5vw;
+        width: 4.5vh;
+    }
+    .contact-section p {
+        padding-left: 0.3rem;
+        padding-right: 1.2rem;
+        font-weight: bolder;
+        cursor: pointer;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+        body{
+            width: 465px;
+        }
+
+        #para-top5{
+            margin-top: 2vh;
+            font-size: 4.5vw;
+        }
+
+        .contact-section {
+            flex-direction: column;
+            gap: 1.5vh;
+            padding: 2vh;
+            margin: auto;
+            /* margin-left: -12vw;
+            margin-bottom: 5vh; */
+        }
+
+        #contact-heading{
+            margin-bottom: 4vh;
+        }
+    
+        .contact-section p {
+            padding-left: 0.9rem;/* Align text to the left for larger screens */
+        }
+
+        #Contact{
+            margin-bottom: 0vh;
+        }
+        
+    }
+
+/* Footer Styling */
+@media only screen and (max-width: 768px) {
+    .footer-nav {
+        flex-direction: row;
+        gap: 0.75rem;
+        height: auto;
+    }
+
+    footer p {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .footer-nav{
+        font-size: 5.5vw;
+        margin-top: -10vh;
+    }
+
+    footer p{
+        font-size: 3.25vw;
+        margin: 0.75rem 0rem 1rem 0rem;
+    }
+
+    
+}
+
